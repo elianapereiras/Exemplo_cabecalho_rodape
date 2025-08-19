@@ -1,0 +1,9 @@
+﻿body {
+}
+.titulo-personalizado {
+    color: orangered;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
