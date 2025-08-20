@@ -1,9 +1,11 @@
 ﻿body {
+    font-family:Verdana;
 }
-.titulo-personalizado {
-    color:purple;
-    text-align: center;
-    font-size: 36px;
-    font-family: Arial, sans-serif;
-    margin-top: 20px;
+
+
+.my_style {
+    color: darkblue;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 43px;
 }
