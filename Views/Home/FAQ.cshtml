@@ -1,0 +1,101 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewBag.Title = "FAQ - Sistema de Solicitação de Manutenção Predial";
+}
+
+<main role="main" class="container mt-4">
+    <!-- Título principal -->
+    <h1>FAQ - Perguntas Frequentes</h1>
+    <p>
+        Aqui você encontra respostas para as dúvidas mais comuns sobre o uso do
+        <strong>Sistema de Solicitação de Manutenção Predial</strong>.
+    </p>
+
+    <!-- Lista de perguntas -->
+    <section>
+        <h2>1. Como faço uma nova solicitação de manutenção?</h2>
+        <p>
+            Para registrar uma nova solicitação, clique no menu
+            <em>Solicitações</em> e depois no botão
+            <mark>"Nova Solicitação"</mark>.
+            Preencha os dados e clique em <b>Salvar</b>.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. Preciso estar logado para registrar uma solicitação?</h2>
+        <p>
+            <u>Sim.</u> Apenas usuários autenticados podem registrar solicitações,
+            garantindo maior segurança e rastreabilidade do processo.
+        </p>
+    </section>
+
+    <section>
+        <h2>3. Posso acompanhar o andamento da minha solicitação?</h2>
+        <p>
+            Sim, no menu <strong>Solicitações</strong>, você pode visualizar a lista
+            com todas as suas solicitações, status e data de atualização.
+        </p>
+        <!-- Exemplo de tabela -->
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Descrição</th>
+                    <th>Status</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Troca de lâmpada na sala 102</td>
+                    <td><span style="color: green;">Concluído</span></td>
+                    <td>10/08/2025</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Reparo no ar condicionado - auditório</td>
+                    <td><span style="color: orange;">Em andamento</span></td>
+                    <td>14/08/2025</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>4. Onde encontro ajuda caso tenha dificuldades?</h2>
+        <p>
+            Você pode entrar em contato pelo e-mail:
+            <a href="mailto:suporte@manutencao.com">suporte@manutencao.com</a>
+            ou pelo telefone <b>(11) 3333-4444</b>.
+        </p>
+    </section>
+
+    <!-- Exemplo de lista -->
+    <section>
+        <h2>5. Dicas para usar o sistema</h2>
+        <ul>
+            <li>Mantenha seus dados de acesso em segurança.</li>
+            <li>Verifique suas solicitações regularmente.</li>
+            <li>Atualize a página caso não veja as alterações.</li>
+        </ul>
+    </section>
+
+    <!-- Exemplo de detalhes/accordion -->
+    <section>
+        <h2>6. Termos de uso</h2>
+        <details>
+            <summary>Clique aqui para ler os termos</summary>
+            <p>
+                O sistema deve ser utilizado apenas para solicitações internas.
+                É proibido registrar informações falsas ou não relacionadas
+                à manutenção predial.
+            </p>
+        </details>
+    </section>
+</main>
