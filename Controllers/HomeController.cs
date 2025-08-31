@@ -13,5 +13,10 @@ namespace Exemplo_cabecalho_rodape.Controllers
         {
             return View();
         }
+
+        public IActionResult FAQ2()
+        {
+            return View();
+        }
     }
 }

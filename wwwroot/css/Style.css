@@ -1,3 +1,10 @@
 ﻿body {
 }
 .meuEstilo{font-size:10px;}
+
+
+#construir img {
+    display: block;
+    width: 50%; /* Adicione uma largura para a imagem */
+    margin: 0 auto;
+}

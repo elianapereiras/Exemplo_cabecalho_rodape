@@ -10,17 +10,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     
     <!--Fazendo referência ao CSS externo-->
-    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/Style.css" rel="stylesheet" />
     
     <!--CSS INTERNO-->
     <style>
         p{color:mediumblue; 
-            text-align:center; 
+            text-align:left; 
             font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size:25px;}
-        .minha_classe{font-size:35px; color:red;}
-
-        
+        font-size:20px;}
+        .minha_classe{font-size:30px; color:red;}
+               
+    
     </style>
     
  </head>
@@ -44,7 +44,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Solicitações</a></li>
-                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Faq", "Home")">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("faq", "Home")">faq</a></li>
                        
                         
                     </ul>
