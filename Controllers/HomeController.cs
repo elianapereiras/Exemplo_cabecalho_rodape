@@ -14,7 +14,7 @@ namespace Exemplo_cabecalho_rodape.Controllers
             return View();
         }
 
-        public IActionResult FAQ2()
+        public IActionResult Solicitar()
         {
             return View();
         }

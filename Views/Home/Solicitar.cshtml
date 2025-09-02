@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h2 class="text-center">Registrar Solicitação</h2>
+<form method="post">
+    <div class="form-group">
+        <label for="cliente">Nome do Solicitante</label>
+        <input type="text" id="cliente" name="cliente" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="descricao">Descrição da Solicitação</label>
+        <textarea id="descricao" name="descricao" class="form-control" rows="4" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="local">Local da Manutenção</label>
+        <input type="text" id="local" name="local" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="tipo">Tipo de Solicitação</label>
+        <select id="tipo" name="tipo" class="form-control">
+            <option value="">Selecione</option>
+            <option value="elétrica">Elétrica</option>
+            <option value="hidráulica">Hidráulica</option>
+            <option value="estrutural">Estrutural</option>
+            <option value="outra">Outra</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar Solicitação</button>
+</form>
