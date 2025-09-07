@@ -32,7 +32,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="~/img/logo.png" /></a>
-                
+                <!-- Título Menu -->
                 <h2>Sistema de Solicitação de Manutenção Predial</h2>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -42,9 +42,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Solicitações</a></li>
-                        <li class="nav-item"><a class="nav-link" href="@Url.Action("faq", "Home")">faq</a></li>
+                        <!-- links do Menu -->
+                        <a class="nav-link" href="@Url.Action("index", "Home")">Home</a>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Solicitar", "Home")">Solicitações</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("faq", "Home")">FAQ</a></li>
                        
                         
                     </ul>
